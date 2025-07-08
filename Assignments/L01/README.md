@@ -1,4 +1,4 @@
-#### **Lab 1 Fundamentals** 
+## Lab 1 Fundamentals
 
   Section 1: blinking
 

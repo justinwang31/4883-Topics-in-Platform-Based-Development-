@@ -10,7 +10,7 @@
   **Section 2: Potentiometer**
 
 
-![Penti](https://github.com/user-attachments/assets/b75c9642-f8b9-4f43-bd0c-5c9700574a5e)
+<img src= "https://github.com/user-attachments/assets/b75c9642-f8b9-4f43-bd0c-5c9700574a5e" width = 200>
 
 
 

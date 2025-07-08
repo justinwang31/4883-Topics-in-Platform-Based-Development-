@@ -2,7 +2,7 @@
 
   **Section 1: blinking**
 
-![Blinking](https://github.com/user-attachments/assets/a783aa5d-bf86-4f06-ab28-361ba533c973)
+<img src= "https://github.com/user-attachments/assets/a783aa5d-bf86-4f06-ab28-361ba533c973" width = 200>
 
 
 

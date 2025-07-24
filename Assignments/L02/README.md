@@ -6,5 +6,8 @@
 
   **Section 2: Top-Down View**
 
-  
 <img src=  "https://github.com/user-attachments/assets/74beb64f-31f7-4a8d-80ab-f16ba673b3f0" width = 200>
+
+**Section 3: The Device in Action**
+
+<img src=  "https://github.com/user-attachments/assets/52c7686c-9e4d-4ab4-b2ac-afbfedc6e5b6"  width = 200>

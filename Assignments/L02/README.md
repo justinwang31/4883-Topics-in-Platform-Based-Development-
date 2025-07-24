@@ -10,4 +10,5 @@
 
 **Section 3: The Device in Action**
 
-<img src=  "https://github.com/user-attachments/assets/52c7686c-9e4d-4ab4-b2ac-afbfedc6e5b6"  width = 200>
+https://github.com/user-attachments/assets/444c351d-ea06-4031-9efb-8d6ab9823ebe
+

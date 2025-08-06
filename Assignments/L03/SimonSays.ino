@@ -11,12 +11,14 @@ const int startButtonPin = A4;           // Start/Restart button
 bool gameStarted = false;                // Game state tracker
 
 void setup() {
+  Serial.begin(9600); //  Enable Serial Monitor
+
   // Initialize input pins
   for (int i = 0; i < 4; i++) {
     pinMode(inputPins[i], INPUT);
   }
 
-  pinMode(startButtonPin, INPUT_PULLUP); // Pull-up for button
+  pinMode(startButtonPin, INPUT_PULLUP);
 
   // Initialize output pins
   for (int i = 0; i < 4; i++) {
@@ -37,6 +39,8 @@ void loop() {
 
   // Game loop only runs if the game has started
   if (gameStarted) {
+    Serial.print("🔁 Round ");
+    Serial.println(level); // ✅ Print current round
     show_sequence();
     get_sequence();
   }
@@ -61,15 +65,15 @@ void get_sequence() {
     flag = 0;
 
     while (flag == 0) {
-      //Check for restart during sequence input
       if (debounceButton(startButtonPin)) {
+        Serial.println("🔁 Game manually restarted.");
         reset_game_with_feedback();
         return;
       }
 
       for (int j = 0; j < 4; j++) {
         if (debounceButton(inputPins[j])) {
-          digitalWrite(ledPins[3 - j], HIGH);  //Reverse to match button-LED pair
+          digitalWrite(ledPins[3 - j], HIGH);  // Reverse to match button-LED pair
           your_sequence[i] = ledPins[3 - j];
           delay(200);
 
@@ -95,6 +99,9 @@ void generate_sequence() {
 }
 
 void wrong_sequence() {
+  Serial.print("❌ Wrong sequence. You made it to round ");
+  Serial.println(level); // ✅ Print the last round reached
+
   for (int i = 0; i < 3; i++) {
     for (int j = 0; j < 4; j++) digitalWrite(ledPins[j], HIGH);
     delay(250);
@@ -104,7 +111,7 @@ void wrong_sequence() {
 
   level = 1;
   velocity = 1000;
-  gameStarted = false; // Wait for start again
+  gameStarted = false;
 }
 
 void right_sequence() {
@@ -124,9 +131,9 @@ void right_sequence() {
 
 bool debounceButton(int pin) {
   if (digitalRead(pin) == LOW) {
-    delay(20);
+    delay(20); // Simple debounce
     if (digitalRead(pin) == LOW) {
-      while (digitalRead(pin) == LOW); 
+      while (digitalRead(pin) == LOW);
       return true;
     }
   }
@@ -134,7 +141,7 @@ bool debounceButton(int pin) {
 }
 
 void reset_game_with_feedback() {
-  // Flash all LEDs to indicate reset/start
+  Serial.println("🚀 Game started or restarted.");
   for (int i = 0; i < 2; i++) {
     for (int j = 0; j < 4; j++) digitalWrite(ledPins[j], HIGH);
     delay(200);

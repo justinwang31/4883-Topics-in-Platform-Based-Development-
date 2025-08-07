@@ -10,7 +10,7 @@ This project is using a ultra sonic sensor to detect distance from an object. Th
 **Files**
 
 |  #  | File Name | Description |
-| 1 | [L02](./L02/UltraSonic.ino) | Code used to run the device |
+| 1 | [L02](Assignments/L02/UltraSonic.ino) | Code used to run the device |
  
 **My Thoughts**
 

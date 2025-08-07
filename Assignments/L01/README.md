@@ -2,7 +2,7 @@
 Justin Wang
 
 **General Overview**
-
+The project was to give a general introduction into LEDs and how to manipulate the led blink pattern.
  
 **Files**
 

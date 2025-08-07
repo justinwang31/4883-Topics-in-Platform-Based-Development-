@@ -17,6 +17,8 @@ The  game project that I decided to work on is a simon says game. It would first
 
 
   **Section 3: Video Demonstration of functioning game**
+
+  Press the button with no cap to start or restart the game. From there press the corresponding button that is in front of the led that lights up. Repeat the pattern to go higher in score and failure to do so will give you a fail. 
   
 
 https://github.com/user-attachments/assets/40d552a4-957a-4f30-9f43-ef4a4e75e132

@@ -12,6 +12,12 @@ This project is using a ultra sonic sensor to detect distance from an object. Th
 | # | File Name | Description |
 | :-: | ----------- | ---------------------- |
 | 1 | [UltraSonic.ino](./UltraSonic.ino) | Code used to run the device |
+
+## Instructions
+Download code provided and compile. 
+No dependencies needed.
+
+
  
 ## My Thoughts
 

@@ -4,6 +4,10 @@
   
   Not my prettiest work but all contacts are functional.
 
+  General Overview:
+
+  I tried at first going with the example that was provided but I soon realized that it was a bit cluttered so I ended up going with a design that I felt was much more suitable. The general concepts and parts are still similar to what was originally shown. Of course, I have the code included in this section to get ultra sonic level meter. Included in here, I have different photo angles of my soldering and the overall breadboard as well as a short video demonstration of me moving back and the led indicators going up the farther I am from the device. 
+
 <img src= "https://github.com/user-attachments/assets/f3e866f3-f568-409c-bd03-cda274f73ed2" width = 200>
 
  <img src= "https://github.com/user-attachments/assets/06fb0ec1-58b6-4a54-ab4c-c7b3cd578588" width = 200>

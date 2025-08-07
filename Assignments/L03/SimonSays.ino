@@ -40,7 +40,7 @@ void loop() {
   // Game loop only runs if the game has started
   if (gameStarted) {
     Serial.print("🔁 Round ");
-    Serial.println(level); // ✅ Print current round
+    Serial.println(level); //  Print current round
     show_sequence();
     get_sequence();
   }
@@ -100,7 +100,7 @@ void generate_sequence() {
 
 void wrong_sequence() {
   Serial.print("❌ Wrong sequence. You made it to round ");
-  Serial.println(level); // ✅ Print the last round reached
+  Serial.println(level); //  Print the last round reached
 
   for (int i = 0; i < 3; i++) {
     for (int j = 0; j < 4; j++) digitalWrite(ledPins[j], HIGH);

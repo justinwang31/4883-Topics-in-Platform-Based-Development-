@@ -11,7 +11,7 @@ The  game project that I decided to work on is a simon says game. It would first
 
   <img src=  "https://github.com/user-attachments/assets/09ce3974-259b-4207-bead-cc33beb88e07" width = 200>
 
-  <img src= "https://github.com/user-attachments/assets/df40f33f-c047-4bf1-9dc5-7dd8efe32d19" width = 200>
+  <img src= "https://github.com/user-attachments/assets/df40f33f-c047-4bf1-9dc5-7dd8efe32d19" width = 400>
 
 
   **Section 3: Video Demonstration**

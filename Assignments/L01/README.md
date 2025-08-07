@@ -1,10 +1,10 @@
 ## Lab 1 Fundamentals
 Justin Wang
 
-**General Overview**
+## General Overview
 The project was to give a general introduction into LEDs and how to manipulate the led blink pattern.
  
-**Files**
+## Files
 
 | # | File Name | Description |
 | :-: | ----------- | ---------------------- |
@@ -13,7 +13,7 @@ The project was to give a general introduction into LEDs and how to manipulate t
 
 
 
-**Notes**
+## Notes
 
 <img src= "https://github.com/user-attachments/assets/a783aa5d-bf86-4f06-ab28-361ba533c973" width = 200>
 
@@ -26,7 +26,7 @@ The project was to give a general introduction into LEDs and how to manipulate t
 https://github.com/user-attachments/assets/1ae76fd1-0364-46f3-a07e-babbd9ca5911
 
 
-# 🧠 Reflection Questions
+## 🧠 Reflection Questions
 
 1. What happens if you reduce the delay to 10ms?
     - If you reduce the delay to 10ms, that would cause the LED to flicker extremely fast. Look at section 3 for that example of the 10ms delay/

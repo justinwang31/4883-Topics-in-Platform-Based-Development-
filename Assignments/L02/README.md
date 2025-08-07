@@ -16,7 +16,7 @@ This project is using a ultra sonic sensor to detect distance from an object. Th
 ## My Thoughts
 
 
-I tried at first going with the example that was provided but I soon realized that it was a bit cluttered so I ended up going with a design that I felt was much more suitable. The general concepts and parts are still similar to what was originally shown. Of course, I have the code included in this section to get ultra sonic level meter. Included in here, I have different photo angles of my soldering and the overall breadboard as well as a short video demonstration of me moving back and the led indicators going up the farther I am from the device. 
+At first, I tried at first going with the example that was provided but I soon realized that it was a bit cluttered so I ended up going with a design that I felt was much more suitable. The general concepts and parts are still similar to what was originally shown. Of course, I have the code included in this section to get ultra sonic level meter. Included in here, I have different photo angles of my soldering and the overall breadboard as well as a short video demonstration of me moving back and the led indicators going up the farther I am from the device. 
 
   ## Notes
   

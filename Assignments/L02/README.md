@@ -2,23 +2,23 @@
 
 Justin Wang
 
- **General Overview:**
+ ## General Overview
 
 This project is using a ultra sonic sensor to detect distance from an object. The farther something an object is, the more leds that will light up and vice versa.
 
 
-**Files**
+## Files
 
 | # | File Name | Description |
 | :-: | ----------- | ---------------------- |
 | 1 | [UltraSonic.ino](./UltraSonic.ino) | Code used to run the device |
  
-**My Thoughts**
+## My Thoughts
 
 
 I tried at first going with the example that was provided but I soon realized that it was a bit cluttered so I ended up going with a design that I felt was much more suitable. The general concepts and parts are still similar to what was originally shown. Of course, I have the code included in this section to get ultra sonic level meter. Included in here, I have different photo angles of my soldering and the overall breadboard as well as a short video demonstration of me moving back and the led indicators going up the farther I am from the device. 
 
-  **Notes**
+  ## Notes
   
   Not my prettiest work but all contacts are functional.
 

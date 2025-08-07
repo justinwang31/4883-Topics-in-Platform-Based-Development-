@@ -11,6 +11,10 @@ The project was to give a general introduction into LEDs and how to manipulate t
 | 1 | [Blink.ino](./Blink.ino) | Code used to make LED blick |
 | 2 | [Potentiometer.ino](./Potentiometer.ino) | Code used to make LED blink faster depending on how much you turn up or down the potentiometer |
 
+## Instructions 
+
+Download the files included and compile and run for results. No dependencies needed.
+
 
 
 ## Notes

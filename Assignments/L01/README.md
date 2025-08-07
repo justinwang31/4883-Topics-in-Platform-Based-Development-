@@ -1,23 +1,26 @@
 ## Lab 1 Fundamentals
+Justin Wang
 
+**General Overview**
 
- All code is in the same folder with their respective name.
  
+**Files**
 
-  **Section 1: blinking**
+| # | File Name | Description |
+| :-: | ----------- | ---------------------- |
+| 1 | [Blink.ino](./Blink.ino) | Code used to make LED blick |
+| 2 | [Petentiometer.ino](./Petentiometer.ino) | Code used to make LED blink faster depending on how much you turn up or down the pentiometer |
+
+
+
+**Notes**
 
 <img src= "https://github.com/user-attachments/assets/a783aa5d-bf86-4f06-ab28-361ba533c973" width = 200>
 
 
 
-  **Section 2: Potentiometer**
-
-
 <img src= "https://github.com/user-attachments/assets/b75c9642-f8b9-4f43-bd0c-5c9700574a5e" width = 200>
 
-
-
-  **Section 3: RGB**
 
 
 https://github.com/user-attachments/assets/1ae76fd1-0364-46f3-a07e-babbd9ca5911

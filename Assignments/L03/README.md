@@ -12,7 +12,7 @@ The  game project that I decided to work on is a simon says game. It would first
 
 
 
-  ##Notes
+  ## Notes
 
   <img src=  "https://github.com/user-attachments/assets/b9cf7b78-84bf-4280-8ad6-6897323665f0" width = 200>
 

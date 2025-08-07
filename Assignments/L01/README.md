@@ -9,7 +9,7 @@ Justin Wang
 | # | File Name | Description |
 | :-: | ----------- | ---------------------- |
 | 1 | [Blink.ino](./Blink.ino) | Code used to make LED blick |
-| 2 | [Petentiometer.ino](./Petentiometer.ino) | Code used to make LED blink faster depending on how much you turn up or down the pentiometer |
+| 2 | [Potentiometer.ino](./Potentiometer.ino) | Code used to make LED blink faster depending on how much you turn up or down the potentiometer |
 
 
 
